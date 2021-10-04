@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31410.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "source", "source", "{579CBADF-7049-4EAF-9EBC-44245086476D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Loto.Core", "source\Loto.Core\Loto.Core.csproj", "{8D9FEB12-FF34-444B-86D6-692D5F802DB4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loto.ConsoleApp", "source\Loto.ConsoleApp\Loto.ConsoleApp.csproj", "{44F1B705-BD93-405D-AE1C-9FD4D0683DB2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D9FEB12-FF34-444B-86D6-692D5F802DB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9FEB12-FF34-444B-86D6-692D5F802DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9FEB12-FF34-444B-86D6-692D5F802DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9FEB12-FF34-444B-86D6-692D5F802DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44F1B705-BD93-405D-AE1C-9FD4D0683DB2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F1B705-BD93-405D-AE1C-9FD4D0683DB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F1B705-BD93-405D-AE1C-9FD4D0683DB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F1B705-BD93-405D-AE1C-9FD4D0683DB2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8D9FEB12-FF34-444B-86D6-692D5F802DB4} = {579CBADF-7049-4EAF-9EBC-44245086476D}
+		{44F1B705-BD93-405D-AE1C-9FD4D0683DB2} = {579CBADF-7049-4EAF-9EBC-44245086476D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B48158C-E5C3-45F6-A6D2-7756DABD978E}
+	EndGlobalSection
+EndGlobal
